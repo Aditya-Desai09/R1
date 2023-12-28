@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <style>
+        body {
+          width: 100%;
+          min-height: 100vh;
+          background: url(bg.jpg) top center;
+          background-size: cover;
+          position: relative;
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+
+        .fade-in {
+          animation: fadeInAnimation 1s ease-in-out forwards;
+        }
+
+        @keyframes fadeInAnimation {
+          from {
+          opacity: 0;
+          }
+          to {
+          opacity: 1;
+          }
+        }
+        h1,h2{
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: 700;
+        }
+        li{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-weight: 400;
+          font-size: medium;
+        }
+        footer{
+          color: white;
+          text-align: center;
+          text-decoration: underline;
+        }
+        </style>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">        
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\LOGO-removebg-preview.png" alt="Avatar Logo" style="width:80px;" class="rounded-pill"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">GAME REVIEW BLOG</a>
+              <img src="https://static.djangoproject.com/img/fundraising-heart.cd6bb84ffd33.svg" alt="Support Django!" style="height: 50px;">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file:///D:/CODE/H/myWeb/gblog.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Aditya-Desai09">GITHUB</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      GAMES_LINKS
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://playvalorant.com/en-gb/">VALORANT</a></li>
+                      <li><a class="dropdown-item" href="https://www.warframe.com/landing">WARFRAME</a></li>
+                      <li><a class="dropdown-item" href="https://overwatch.blizzard.com/en-us/">OVERWATCH-2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">See all</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        
+          
+    </head>
+
+    <body class="fade-in">
+      
+        <div class="container mt-5">
+            <div class="row">
+              
+              <div class="col-md-6 mb-4">
+                <div class="card";style="width:200px">
+                  <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\1664302216valorant-logo-png.png" class="card-img-top" alt="Image 1" height="350px" width="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">VALORANT</h5>
+                    <p class="card-text">Valorant is a free-to-play first-person tactical hero shooter developed and published by Riot Games, for Windows.click the link to read full review.</p>
+                    <a href="D:\CODE\H\myWeb\val.html" class="btn btn-dark">Read Full-Review</a>
+                  </div>
+                </div>
+              </div>
+          
+             
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\Warframe_logo_PNG4.png" class="card-img-top" alt="Image 3"  height="350px" width="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">WARFRAME</h5>
+                    <p class="card-text">Warframe is a free-to-play action role-playing third-person shooter multiplayer online game developed and published by Digital Extremes.</p>
+                    <a href="#" class="btn btn-dark">Read Full-Review</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6 mb-4">
+                <div class="card";style="width:200px">
+                  <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\Overwatch-Logo.png" class="card-img-top" alt="Image 2" height="326px" width="200px">
+                  <div class="card-body">
+                    <h5 class="card-title">OVERWATCH-2</h5>
+                    <p class="card-text">Overwatch (retroactively referred to as Overwatch 1) was a 2016 team-based multiplayer first-person shooter game by Blizzard Entertainmen.</p>
+                    <a href="#" class="btn btn-dark">Read Full-Review</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 mb-4">
+                <div class="card">
+                  <img src="D:\CODE\H\BOOTSTRAP\NOTES\LOGO\df63a9b-360ace63-7834-4aec-9433-d1df9c5ec59b.png" class="card-img-top" alt="Image 4">
+                  <div class="card-body">
+                    <h5 class="card-title">GENSHIN IMPACT</h5>
+                    <p class="card-text">Genshin Impact is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse.</p>
+                    <a href="#" class="btn btn-dark">Read Full-Review</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+          
+        <br><br>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    </body>
+    <footer>
+      <p>&copy; 2023. All rights reserved.</p>
+    </footer>
+</html>
